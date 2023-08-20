@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(83, 0, 0));
+    color: #333;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(190, 0, 0));
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.line {
+    height: 5px;
+    background-image: linear-gradient(to right, rgb(136, 0, 0) , rgb(255, 38, 38));
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.content {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.content li {
+    margin: 0 15px;
+}
+
+.content a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.content a:hover {
+    color: #850000;
+}
+
+#hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.projects {
+    padding: 100px 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #fffafa;
+}
+
+.project {
+    width: 225px;
+    height: 200px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 20px;
+    color: #000000
+}
+
+footer {
+    min-height: 5vh;
+    background-color: #343a40;
+    color: #fff;
+    text-align: left;
+    padding: 5px 0;
+}
